@@ -23,7 +23,10 @@
     dt { font-weight:900; }
     dd { margin:0; }
     p { margin:0 0 12px; color:var(--muted); font-size:13px; line-height:1.42; }
-    .register-link { display:flex; justify-content:center; align-items:center; min-height:40px; border-radius:8px; background:var(--ink); color:#fff; text-decoration:none; font-weight:900; }
+    .action-links { display:grid; gap:8px; }
+    .register-link, .whatsapp-link { display:flex; justify-content:center; align-items:center; min-height:40px; border-radius:8px; color:#fff; text-decoration:none; font-weight:900; }
+    .register-link { background:var(--ink); }
+    .whatsapp-link { background:#087f5b; }
     .empty { border:1px dashed var(--line); border-radius:8px; padding:24px; color:var(--muted); text-align:center; }
     footer { padding:0 24px 24px; color:var(--muted); font-size:12px; font-weight:800; }
   </style>
@@ -38,7 +41,7 @@
       </header>
       <section class="meta">
         <span>Deadline: Sep 7, 2026, 9:00 PM</span>
-        <span>1 activity</span>
+        <span>2 activities</span>
       </section>
       <section class="list">
         
@@ -46,13 +49,31 @@
         <span class="team-pill">Hiking</span>
         <h2>Welcoming hike to Victoria Peak</h2>
         <dl>
-          <dt>Date</dt><dd>Sat, Sep 19</dd>
-          <dt>Time</dt><dd>18:00 - 21:00</dd>
+          <dt>Date</dt><dd>Fri, Sep 11</dd>
+          <dt>Time</dt><dd>19:00 - 21:00</dd>
           <dt>Venue</dt><dd>Victoria Peak</dd>
           <dt>Seats</dt><dd>30</dd>
         </dl>
         
-        <a class="register-link" href="https://forms.gle/DqFLYKy1ZaxqfBmi7" target="_blank" rel="noreferrer">Register</a>
+        <div class="action-links">
+          <a class="register-link" href="https://forms.gle/Zv5EFRjzpKF3kkWbA" target="_blank" rel="noreferrer">Register</a>
+          <a class="whatsapp-link" href="https://chat.whatsapp.com/FYKGrY9trCIDyf045BvTea?s=cl&amp;p=i&amp;mlu=4" target="_blank" rel="noreferrer">Join WhatsApp Group</a>
+        </div>
+      </article>
+      <article class="link-card">
+        <span class="team-pill">Dodgeball</span>
+        <h2>2</h2>
+        <dl>
+          <dt>Date</dt><dd>Sat, Sep 19</dd>
+          <dt>Time</dt><dd>10:00 - 11:30</dd>
+          <dt>Venue</dt><dd>Stanley</dd>
+          <dt>Seats</dt><dd>14</dd>
+        </dl>
+        
+        <div class="action-links">
+          
+          <a class="whatsapp-link" href="https://chat.whatsapp.com/FYKGrY9trCIDyf045BvTea?s=cl&amp;p=i&amp;mlu=4" target="_blank" rel="noreferrer">Join WhatsApp Group</a>
+        </div>
       </article>
       </section>
       <footer>Sports Committee</footer>
